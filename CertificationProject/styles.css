@@ -1,0 +1,79 @@
+body{
+    color:white;
+  }
+  .image{
+    position:absolute;
+    background-image:url(https://i.pinimg.com/236x/d1/03/d0/d103d04ad5ee92303f65d41aa9f875d0.jpg);
+    top:0;
+    left:0;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    z-index: -2;
+    position: fixed;
+  }
+  .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+    position: fixed;
+  }
+  div{
+    background-color:rgba(0,0,0,0.7);
+  margin: 0 auto;
+  padding:20px;
+  width:50%;
+  }
+  h1, #description{
+    text-align:center;
+  }
+  label{
+    display:block;
+    font-size: 1.125rem;
+  }
+  fieldset:first-child input{
+    width:100%;
+    font-size: 1.125rem;
+  }
+  select{
+    /* width:100%; */
+    font-size: 1.125rem;
+  }
+  h1{
+    font-size:40px;
+  }
+  p{
+    font-size: 1.125rem;
+  }
+  input{
+    font-size: 1.125rem;
+    padding: 0.4em;
+    border-radius: 7px;
+  }
+  textarea{
+    font-size: 1.125rem;
+  }
+  fieldset{
+    border:none;
+  }
+  input[type="submit"]{
+    background-color: rgba(0,0,0,0.7);
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+  }
+  input[type="submit"]:hover{
+    background-color: rgba(67, 212, 220, 0.7);
+    width: 100%;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+

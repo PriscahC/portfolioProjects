@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title> Feedback form </title>
+  </head>
+  <body>
+    <div class="image"></div>
+    <div class="overlay"></div>
+    <div>
+      <h1 id="title">Color Fest Feedback Form</h1>
+      <p id="description">Thank You for Attending Color Festival event. Kindly share your feedback!</p>
+      <form id="survey-form" action="opiyopriscah4@gmail.com">
+        <fieldset>
+          <label id="name-label" for="name"><p>Enter your name:</p> <input id="name" type="text" name="name" required placeholder="enter your name"/>
+          </label>
+          <label id="email-label" for="email"><p>Enter your email:</p> <input id="email" name="email" type="email" required placeholder="enter your email"/>
+          </label>
+          <label id="number-label" for="number"><p>Enter your ticket-number:</p> <input id="number" name="number" type="number" required placeholder="enter your number" max="70" min="1"/>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown"><p>How did you hear about us?</p>
+            <select id="dropdown" name="dropdown">
+              <option>Select one</option>
+              <option value="1">Whatsapp</option>
+              <option value="2">Twitter</option>
+              <option value="3">Instagram</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+          <label>
+            <p>Who was your best artist? (select one)</p>
+            <input type="radio" name="best-artist" value="1"/> Nyashinski
+          </label>
+          <label>
+            <input type="radio" name="best-artist" value="2"/> Sauti Sol
+          </label>
+          <label>
+            <input type="radio" name="best-artist" value="3"/> Diamond
+          </label>
+          <label>
+            <input type="radio" name="best-artist" value="4"/> Femi One
+          </label>
+         <p> Which activities did you take part in?</p>
+          <label>
+            <input type="checkbox" value="skipping"/> Skipping
+          </label>
+          <label>
+            <input type="checkbox" value="dance"/> Dance Challenge
+          </label>
+          <label>
+            <input type="checkbox" value="Horse-Riding"/> Horse Riding
+          </label>
+          <label>
+            <input type="checkbox" value="color-splash"/> Color Splash
+          </label>
+          <label>
+            <input type="checkbox" value="speed-dating"/> Speed Dating
+          </label>
+          <label> <p>Upload your favorite event picture to be posted on our social media pages:</p> <input type="file" name="best-pic"/></label>
+        </fieldset>
+        <fieldset>
+          <p>Any comments?</p>
+          <textarea placeholder="additional comments" cols="30" rows="3"></textarea>
+        </fieldset>
+        <input type="submit" id="submit"/>
+      </form>
+    </div>
+  </body>

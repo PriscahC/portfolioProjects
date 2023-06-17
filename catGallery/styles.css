@@ -33,12 +33,12 @@
     width: 100%;
     max-width: 350px;
     height: 300px;
-    object-fit: cover;
+    object-fit: cover;    /*this attribute removes image stretching*/
     border-radius: 10px;
   }
   
   .gallery::after {
-    content: "";
-    width: 350px;
+    content: "";    /*this attribute adds an extra blank image to make the columns even*/
+    width: 350px;     
   }
   
